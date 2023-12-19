@@ -1,0 +1,157 @@
+body {
+    background-image: url("final-backgrnd.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: #2b2a2e;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+h1 {
+    color: #F9F5F6;
+    font-size: 70px;
+    margin-top: 110px;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    color: #fbceef;
+    font-size: 50px;
+    margin-top: 3px;
+}
+
+.aboutLine {
+    background-color: #b4e4ffcb;
+    padding: 30px 6% 30px 6%;
+    font-size: 20px;
+    width: auto;
+    color: #051421;
+    margin-top: 30px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+
+.blocks {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.blockOne, .blockTwo, .blockThree, .blockFour, .blockFife {
+    background-color: #bbbbbd;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    text-align: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    font-size: 33px;
+}
+
+.blockOne {
+    background: url(games.avif);
+    width: 480px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blockTwo {
+    background: url(weather1.avif);
+    width: 480px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectPage {
+    text-decoration: none;
+    color: #051421;
+}
+
+.blockThree {
+    background: url(calc1-scr.jpg);
+    width: 480px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blockFour {
+    background: url(timer1.jpg);
+    width: 480px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blockFife {
+    background: url(timer3.avif);
+    width: 480px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* .blockDescription {
+    display: flex;
+    flex-direction: column;
+}  */
+
+.how {
+    /* background-color: #F9F5F6; */
+    /* padding: 10px; */
+    font-size: 18px;
+}
+
+
+.connect {
+    color: #F9F5F6;
+    font-size: 30px;
+    align-self: center;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.button {
+    background-color: #ebf493;
+    font-size: 20px;
+    width: auto;
+    color: #051421;
+    text-decoration: none;
+    padding: 20px 60px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.bottomLine {
+    background-color: #b4e4ffcb;
+    margin-top: 100px;
+    padding: 10px 6% 10px 6%;
+    font-size: 13px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.socials {
+    text-decoration: none;
+}
+
+
